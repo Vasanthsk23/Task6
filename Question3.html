@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <body style="background-color:rgba(196, 72, 154, 0.575);">
+        <form action="successpage.html" method="get">
+        <fieldset>
+        <legend><h1>Contact details</h1></legend>
+         
+        <label for ="fname">Full Name</label><br><br>
+        <input type = "text" id = "fname" name ="fname"><br><br>
+
+        
+            <label for ="sex">Sex</label><br>
+            <input type="checkbox" name="genderM" value="Male"> Male <br>
+            <input type="checkbox" name="genderF" value="Female"> Female<br><br>
+
+        
+        <label for = "email add">Email Address</label><br><br>
+        <input type ="email" id = "email add" name="email add" value placeholder="vasanth@gmail.com"><br><br>
+        
+
+        
+        <label for="contact no">Contact Number</label><br><br>
+        <input type ="phn" pattern ="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="123-456-7890"><br><br>
+
+        <input type ="submit" value="submit">
+
+
+    </form>
+    </fieldset>
+    </body>
+</html>

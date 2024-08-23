@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    height: 300px;
+    width: 500px;
+    border: 1px solid transparent;
+    margin: 200px auto;
+    /* padding: 0px 6.5px 0px 6.5px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border-radius: 18px;
+    box-shadow: 3px 3px 8px gray;
+}
+.adharHead{
+    height: 60px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-image: url(./image/AdharLogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 80px;
+    margin-bottom: 5px;
+}
+#userImg{
+    height: 120px;
+    width: 105px;
+    border: 1px solid transparent;
+    display: inline-block;
+    background-image: url(./image/user.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#userInfo{
+    display: inline-block;
+    height: 120px;
+    width: 250px;
+    border: 1px solid transparent;
+    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+}
+#userQR{
+    width: 120px;
+    height: 120px;
+    border: 1px solid transparent;
+    display: inline-block;
+    background-image: url(./image/QR.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.adharNo{
+    height: 55px;
+    width: 100%;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 55px;
+}
+.adharFooter{
+    height: 55px;
+    width: 100%;
+    border-top: 3px solid red;
+    text-align: center;
+    line-height: 55px;
+}
+.footText{
+    font-size: 25px;
+    font-weight: bold;
+}
+#footText1{
+    color: red;
+}
